@@ -1,0 +1,8 @@
+package Lesson_1.q_1;
+
+public class Summa {
+    @Test(a=2, b=5)
+    public void getSumm (int a, int b){
+        System.out.println("Summ= " + (a+b));
+    }
+}
